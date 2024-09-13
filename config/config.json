@@ -1,0 +1,9 @@
+{
+  "problem_type": "multi_Categorical_classification",
+  "model_path": "./pretrain/electra_small",
+  "model_save": "./models/best_model.pkl",
+  "learning_rate": 2e-5,
+  "max_seq_length": 512,
+  "epoch": 1,
+  "batch_size": 2
+}

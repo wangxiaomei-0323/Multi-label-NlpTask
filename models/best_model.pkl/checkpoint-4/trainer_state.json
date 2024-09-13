@@ -1,0 +1,29 @@
+{
+  "best_metric": 0.2857142857142857,
+  "best_model_checkpoint": "./models/best_model.pkl\\checkpoint-4",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 4,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.4444444444444444,
+      "eval_f1": 0.2857142857142857,
+      "eval_loss": 3.1787328720092773,
+      "eval_runtime": 9.657,
+      "eval_samples_per_second": 0.207,
+      "eval_steps_per_second": 0.104,
+      "step": 4
+    }
+  ],
+  "logging_steps": 5,
+  "max_steps": 4,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 27471152340.0,
+  "trial_name": null,
+  "trial_params": null
+}
